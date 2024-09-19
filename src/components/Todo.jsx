@@ -50,7 +50,7 @@ const Todo = ({ todo, deleteTodo, updateTodo }) => {
   
 
   return (
-    <li className="shadow-xl bg-yellow-100 p-10 rounded m-5 text-center w-full relative rotate-2">
+    <li className="bg-yellow-100 shadow-lg shadow-slate-100/40 p-10 rounded m-5 text-center w-full relative rotate-2">
       <div>
         {priority && (
           <span className="bg-blue-500 text-white font-black py-1 px-2 rounded absolute top-2 right-2 text-xs">

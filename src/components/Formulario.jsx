@@ -46,7 +46,7 @@ const Formulario = ({ addTodo }) => {
 
     return (
         <div className="flex justify-center items-center p-5 mt-5">
-            <div className="w-full max-w-2xl shadow-xl bg-yellow-100 p-10 rounded-xl">
+            <div className="w-full max-w-2xl shadow-lg shadow-slate-100/40 bg-yellow-100 p-10 rounded-xl	">
                 <h1 className="text-4xl text-center mb-5 font-bold">To-do</h1>      
                 <form onSubmit={handleSubmit}>
                     <div className="w-full max-w-lg min-w-[300px] mx-auto">
